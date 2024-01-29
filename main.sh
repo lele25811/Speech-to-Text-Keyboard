@@ -1,6 +1,7 @@
 #!/bin/bash
 
-stt='/home/emanuele/Varie/OpenSource/Speech-to-Text-Keyboard/speech_to_text.py'
+# python script for transcription 
+stt='speech_to_text.py'
 
 # check if microphone is active (mic=1)
 # if microphone is not active (mic=0)
