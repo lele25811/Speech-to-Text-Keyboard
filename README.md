@@ -12,4 +12,5 @@
   - notifypy             (python -> `pip install notify-py`)
 
 ## Note
+  The set language is Italian, but it can be changed from the Python script.
   There are comments in the script code on how it works.
