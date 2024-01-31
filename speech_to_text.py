@@ -30,6 +30,7 @@ with sr.Microphone() as source:
 	r.adjust_for_ambient_noise(source)
 	audio = r.listen(source, timeout=30)
 	try:
+		# change "it" with "en" for change the language in english
 		text = r.recognize_google(audio, language="it")
 		print("You said: {}".format(text))
 		pyautogui.click(x, y)
